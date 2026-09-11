@@ -1,0 +1,108 @@
+{
+  "webapp": {
+    "deps": [
+      "httpserver",
+      "orm",
+      "templating",
+      "logging"
+    ],
+    "size_kb": 240,
+    "version": "1.0.0"
+  },
+  "httpserver": {
+    "deps": [
+      "netcore",
+      "logging"
+    ],
+    "size_kb": 610,
+    "version": "2.1.1"
+  },
+  "orm": {
+    "deps": [
+      "dbdriver",
+      "schema",
+      "logging"
+    ],
+    "size_kb": 880,
+    "version": "3.2.2"
+  },
+  "templating": {
+    "deps": [
+      "parsercore"
+    ],
+    "size_kb": 310,
+    "version": "1.3.3"
+  },
+  "dbdriver": {
+    "deps": [
+      "netcore",
+      "binproto"
+    ],
+    "size_kb": 1450,
+    "version": "2.4.4"
+  },
+  "schema": {
+    "deps": [
+      "parsercore",
+      "typeutils"
+    ],
+    "size_kb": 420,
+    "version": "3.5.0"
+  },
+  "netcore": {
+    "deps": [
+      "binproto",
+      "typeutils"
+    ],
+    "size_kb": 1720,
+    "version": "1.6.1"
+  },
+  "binproto": {
+    "deps": [
+      "typeutils"
+    ],
+    "size_kb": 660,
+    "version": "2.0.2"
+  },
+  "parsercore": {
+    "deps": [
+      "typeutils"
+    ],
+    "size_kb": 520,
+    "version": "3.1.3"
+  },
+  "typeutils": {
+    "deps": [],
+    "size_kb": 130,
+    "version": "1.2.4"
+  },
+  "logging": {
+    "deps": [
+      "typeutils"
+    ],
+    "size_kb": 180,
+    "version": "2.3.0"
+  },
+  "analytics": {
+    "deps": [
+      "orm",
+      "statskit",
+      "logging"
+    ],
+    "size_kb": 350,
+    "version": "3.4.1"
+  },
+  "statskit": {
+    "deps": [
+      "mathcore",
+      "typeutils"
+    ],
+    "size_kb": 940,
+    "version": "1.5.2"
+  },
+  "mathcore": {
+    "deps": [],
+    "size_kb": 2100,
+    "version": "2.6.3"
+  }
+}
